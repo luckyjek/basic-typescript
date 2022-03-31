@@ -31,4 +31,6 @@
     ellieName = 'name';
     type JSON = 'json';
     const json: JSON = 'json';
+
+    type Boal = true;
 }
