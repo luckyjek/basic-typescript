@@ -51,7 +51,7 @@
     //fail -> 😭 reason 
 
     function printLoginState(state: LoginState){
-         if('response' in state){
+         if('response' in state){ //response 키가 state Object안에 있다면,
              console.log(`🎉${state.response.body}`);
          }else{
              console.log(`😭${state.reason}`)

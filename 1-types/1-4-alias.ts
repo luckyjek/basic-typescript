@@ -20,7 +20,6 @@
         // animal:'dog' --아무거나 할당X
         name:'ellie',
         age:12,
-
     }
 
     /**
